@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nirmal Pal</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Nirmal Pal" width="80" />
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Pushpendra Chandravanshi">
+            Nirmal <br />Pal
+          </h1>
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:nrmlpl2k22@gmail.com" class="contact-link">nrmlpl2k22@gmail.com</a>
+            </div>
+          </li>
+
+          <!-- <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+1 (213) 352-2795</a
+                >
+              </div>
+            </li> -->
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">April 11, 2001</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Uttar Pradesh, India</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/palnirmal/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/nrmlpl" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://leetcode.com/u/_nirmalpal/" target="_blank" class="social-link">
+              <ion-icon name="link-outline"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://twitter.com/nevertweets9" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a passionate and skilled frontend developer with experience
+            in building user-friendly and engaging web applications. I am
+            proficient in ReactJS, Tailwind CSS, and other modern
+            technologies.
+          </p>
+
+          <p>
+            In my previous roles, I have successfully delivered projects on
+            time and within specifications. I am a team player and I am always willing
+            to go the extra mile. I am also a quick learner and I am always up
+            for new challenges. I am looking for a challenging and rewarding
+            position in a fast-paced environment where I can use my skills and
+            experience to make a positive impact.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of web-apps at the professional
+                  level.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Designing of web apps and android apps using design tools
+                  like Figma.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Open Source</h4>
+
+                <p class="service-item-text">
+                  Contribute to Open Source projects and engage in
+                  communities.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40" />
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming</h4>
+
+                <p class="service-item-text">
+                  Passionate C++ programmer with a knack for crafting efficient solutions.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Ravindu De Silva" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Ravindu De Silva
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Nirmal exemplifies outstanding programming and
+                    problem-solving prowess! His ability to produce clean code
+                    and employ critical thinking is truly impressive. I
+                    wholeheartedly appreciate his contributions and wish him
+                    the utmost success in all his future endeavors. Keep up the
+                    exceptional work!
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Rishant Puri Goswami" width="60"
+                    data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Rishant Puri Goswami
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I've had the pleasure of collaborating with Nirmal on
+                    multiple projects, and I'm always impressed by his
+                    front-end expertise. His dedication to creating visually
+                    appealing and intuitive websites is remarkable. I
+                    wholeheartedly endorse him as a front-end developer.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Bhuvnesh Singh" width="60" data-testimonials-avatar />
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>
+                  Bhuvnesh Singh
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Nirmal's web development expertise is exceptional. He
+                    built a website for me that not only looks fantastic but
+                    also functions flawlessly. I'm incredibly impressed with
+                    his skills and would recommend him to anyone seeking a
+                    top-notch developer.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>
+                Ravindu De Silva
+              </h4>
+
+              <p class="test-title" style="font-weight: 500"></p>
+
+              <div data-modal-text>
+                <p>
+                  Nirmal exemplifies outstanding programming and
+                  problem-solving prowess! His ability to produce clean code
+                  and employ critical thinking is truly impressive. I
+                  wholeheartedly appreciate his contributions and wish him the
+                  utmost success in all his future endeavors. Keep up the
+                  exceptional work!
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Rajkiya Engineering College Sonbhadra
+              </h4>
+
+              <span>2020 - 2024</span>
+
+              <p class="timeline-text">
+                B. Tech ( Computer Science and Engineering )
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Jawahar Navodaya Vidyalaya Kannauj
+              </h4>
+
+              <span>2018 - 2019</span>
+
+              <p class="timeline-text">
+                Intermediate
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Jawahar Navodaya Vidyalaya Kannauj
+              </h4>
+
+              <span>2016 — 2017</span>
+
+              <p class="timeline-text">High School</p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                VartApp - A real-time chat application
+              </h4>
+              <span>March 2024 - May 2024</span>
+
+              <p class="timeline-text">
+                - A real-time chat application using the MERN stack along with Socket.io for seamless
+                communication between users . <br />
+                - Users can sign up, log in securely, and authenticate their identity to access the chat
+                functionalities. <br />- Utilizing Socket.io, the application facilitates instant messaging and updates
+                in
+                real-time, ensuring swift and responsive communication between users. <br />- Tech Stack: Socket.io |
+                TailwindCSS | React.js | Node.js | | MongoDB |Express.js
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Estate Marketplace
+              </h4>
+
+              <span>February 2024 - March 2024</span>
+
+              <p class="timeline-text">
+                - A robust real estate platform which enable users to perform CRUD operations,
+                including property listing creation, updating, and deletion.<br />- Provides email, password, and OAuth authentication with JWT for secure user
+                access. <br />- Implemented search feature with filters and sorting options, optimizing MongoDB
+                queries for efficiency. <br />- Tech Stack: Express.js | Tailwind | React.js | Node.js | | Google OAuth |JWT |
+                MongoDB | Firebase
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                AI Image Generation application
+              </h4>
+
+              <span>October 2023 - November 2023</span>
+
+              <p class="timeline-text">
+                - Built a full-stack MERN AI Image generation application to enhance the way we
+                interact with images by harnessing power of DALL-E’s OpenAI API. <br />- The ability to create new AI generated images by text prompt provided by user
+                along with sharing & downloading functionality. <br />- Integrated with Cloudinary for better optimization of images.
+                <br />- Tech Stack: React.js | Tailwind | Node.js | Express.js | MongoDB | OpenAI |
+                Cloudinary
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                3D Portfolio Website
+              </h4>
+
+              <span>April 2023 - August 2023</span>
+
+              <p class="timeline-text">
+                - Fully responsive design with captivating 3D models that are fully customizable. <br />-
+                Developed an efficient expense management system for
+                streamlining finances and reducing efforts. <br />- Smooth and seamless animations providing a unique experience to user interaction. <br />- Tech Stack: React Three Fiber | React.js | TailindCSS | Framer Motion
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Languages- </h5>
+                <data value="80">JavaScript, C++, HTML, CSS</data>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Frameworks- </h5>
+                <data value="80">ReactJS, Tailwind CSS, Bootstrap, Redux, NodeJS,
+                  Express, MongoDB</data>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Tools and Technologies- </h5>
+                <data value="80">Git, Github, VSCode</data>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <br />
+        <section class="skill">
+          <h3 class="h3 skills-title">Coursework</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">• Data Structure and Algorithms</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">• Object Oriented Programming</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">• Database Management System</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">• Operating System</h5>
+              </div>
+            </li>
+            
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">• Computer Networks</h5>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #PROJECTS
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://vartapp.app" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="Vartapp" loading="lazy" />
+                </figure>
+              </a>
+              <h3 class="project-title">VartApp</h3>
+
+              <p class="project-category">Web development</p>
+              <div class="project-buttons">
+                <button class="project-button">
+                  <a href="https://vartapp.app" class="project-btn-text" target="_blank">Live</a>
+                </button>
+                <button class="project-button">
+                  <a href="https://github.com/nrmlpl/VartApp" class="project-btn-text"
+                    target="_blank">Code</a>
+                </button>
+              </div>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://mern-estate-anph.onrender.com/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.jpg" alt="Estate" loading="lazy" />
+                </figure>
+              </a>
+              <h3 class="project-title">Estate Marketplace</h3>
+
+              <p class="project-category">Web development</p>
+              <div class="project-buttons">
+                <button class="project-button">
+                  <a href="https://mern-estate-anph.onrender.com/" class="project-btn-text" target="_blank">Live</a>
+                </button>
+                <button class="project-button">
+                  <a href="https://github.com/nrmlpl/mern-estate" class="project-btn-text" target="_blank">Code</a>
+                </button>
+              </div>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://658c2d9056d7346ce7d1a3bd--effervescent-speculoos-3d9dc4.netlify.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="Imaginify" loading="lazy" />
+                </figure>
+              </a>
+              <h3 class="project-title">AI Image Generation Tool</h3>
+
+              <p class="project-category">Web development</p>
+              <div class="project-buttons">
+                <button class="project-button">
+                  <a href="https://658c2d9056d7346ce7d1a3bd--effervescent-speculoos-3d9dc4.netlify.app/" class="project-btn-text" target="_blank">Live</a>
+                </button>
+                <button class="project-button">
+                  <a href="https://github.com/nrmlpl/AI-Image-Generator/tree/main" class="project-btn-text"
+                    target="_blank">Code</a>
+                </button>
+              </div>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://farmrent.netlify.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.jpg" alt="Farm Rent" loading="lazy" />
+                </figure>
+              </a>
+              <h3 class="project-title">Farm Rent</h3>
+
+              <p class="project-category">Web development</p>
+              <div class="project-buttons">
+                <button class="project-button">
+                  <a href="https://farmrent.netlify.app/" class="project-btn-text" target="_blank">Live</a>
+                </button>
+                <button class="project-button">
+                  <a href="https://github.com/nrmlpl" class="project-btn-text"
+                    target="_blank">Code</a>
+                </button>
+              </div>
+            </li>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://nirmalpal-portfolio.vercel.app/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.jpg" alt="3D-Portfolio" loading="lazy" />
+                </figure>
+              </a>
+              <h3 class="project-title">3D Portfolio Website</h3>
+
+              <p class="project-category">Web development</p>
+              <div class="project-buttons">
+                <button class="project-button">
+                  <a href="https://nirmalpal-portfolio.vercel.app/" class="project-btn-text" target="_blank">Live</a>
+                </button>
+                <button class="project-button">
+                  <a href="https://github.com/nrmlpl/3D-Developer-Portfolio" class="project-btn-text" target="_blank">Code</a>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+          <!--<ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a
+                  href=""
+                  target="_blank"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src=""
+                      alt=""
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Development</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">July 31, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      My Google Summer Of Code Journey
+                    </h3>
+
+                    <p class="blog-text">
+                      Hey there!
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="blog-post-item">
+                <a
+                  href=""
+                  target="_blank"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src=""
+                      alt=""
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Development</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">July 31, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Building
+                    </h3>
+
+                    <p class="blog-text">
+                      The Google Summer of Code (GSoC) 
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="blog-post-item">
+                <a
+                  href=""
+                  target="_blank"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src=""
+                      alt=""
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Development</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">May 06, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      First
+                    </h3>
+
+                    <p class="blog-text">
+                      Recently
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="blog-post-item">
+                <a
+                  href=""
+                  target="_blank"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src=""
+                      alt=""
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Robotics</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">June 25, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      World of Embedded Technology
+                    </h3>
+
+                    <p class="blog-text">
+                      Embedded technology refers to the field of computer
+                      systems and...
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          -->
+        </section>
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8954.156962716143!2d79.91446751209702!3d27.047246535976463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399e6f7915d83851%3A0x46732ed4c2e2e2ad!2sKannauj%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1715215618733!5m2!1sen!2sin"
+              width="400" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
